@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="building.css">
+    <title>building design</title>
+    <style>
+        @media screen and(max-width: 1200px){
+            .wrapper{width: 96%;}
+        }
+        @media screen and(max-width: 1100px){
+            .wrapper{width: 96%;}
+            #left{
+                width: 0 auto;
+            }
+            #right{
+                text-align: center;
+                width: 0 auto;
+            }
+
+        }
+        @media screen and(max-width: 1000px){
+            #img1{width: 590px;}
+            h1{font-size: 40px;}
+            .circle{
+                width: 120px;
+                height: 120px;
+            }
+            #meet{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                justify-content: space-between;
+                text-align: center;
+                margin: 0 auto;
+            }
+            #head3{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            
+        }
+        @media screen and(max-width:800px){
+            #img1{margin-top: 100px;}
+            #mainmenu{
+                flex-direction: column;
+                align-items: flex-start;
+                position:absolute;
+               display: none;
+               right:50px;
+                top:55px;
+            }
+        
+            #mainmenu > span{
+                display: none;
+            }
+
+            }
+        @media screen and(max-width:770px){
+            .box{
+                width: 100%;
+            }
+        }
+        @media screen and(max-width:700px){
+            #logo{
+                width: 250px;
+            }
+        }
+        @media screen and(max-width:600px){
+            #mainmenu{
+                top: 50px}
+            #menu{
+                width: 80px;
+            }
+            #right > p{
+                width: 400px;
+                margin-left: 50px;
+            }
+
+            }
+        @media screen and(max-width:400px){
+            
+        }
+    
+            
+        
+    </style>
+
+</head>
+<body>
+    <header>
+        <div class="wrapper" id="topbar">
+            <img src="images/images/logo.png" alt="logo" id="logo">
+                <nav id="mainmenu">
+                    <a class="menuitem" href="#" id="currrentpage">Home</a>
+                    <span class="separators">|</span>
+                    <a class="menuitem" href="#">About us</a>
+                    <span class="separators">|</span>
+                    <a class="menuitem" href="#">Our Products</a>
+            </nav>
+                <img src="images/images/icons/134216_menu_lines_hamburger_icon.svg" alt="menu" id="menu">
+        </div>
+    </header>
+<section>
+        <div id="d1">
+            <div class="wrapper" id="d2">
+                <div id="left">
+                    <img src="images/images/checking-blueprint.png" alt="check" id="img1">
+            </div>
+                <div id="right">
+                    <h1 id="head1">Architecture <br>Engineering & <br>Design Firm </h1>
+                    <p id="p1">We are authority for completing construction projects in <br> environmentally sensitive surroundings</p>
+                    <a href="#" id="a1">Read More</a>
+                </div>
+            </div>
+        </div>
+     </section>
+       <section id="sec1">
+            <div class="wrapper" id="boxes">
+                <div class="box" id="box1">
+                    <div class="circle">
+                        <img src="images/images/icons/4230540_analysis_graph_report_icon.svg" alt="anaysis">
+                    </div>
+                <h2 class="head2">ANALYSIS</h2>
+                <p class="text1">Lorem ipsum dolor sit amet consectetur</p>
+                <a href="#" id="click" class="button">more</a>
+                </div>
+                    <div class="box" id="box2">
+                        <div class="circle">
+                            <img src="images/images/icons/7898514_plan_business_finance_office_marketing_icon.svg" alt="planing">
+                        </div>
+                            <h2 class="head2">PLANING</h2>
+                                <p class="text1">Lorem ipsum dolor sit amet consectetur </p>
+                                <a href="#" class="button">more</a>
+                        </div>
+                            <div class="box" id="box3">
+                                <div class="circle">
+                                    <img src="images/images/icons/185046_graphic tablet_design_tablet_icon.svg" alt="Design">
+                                </div>
+                                     <h2 class="head2">DESIGN</h2>
+                                         <p class="text1">Lorem ipsum dolor sit amet consectetur </p>
+                                         <a href="#" class="button">more</a>
+                                        </div>
+                                </div>
+                        </section>
+                           <section id="sec2">
+                                <div class="wrapper" id="div3">
+                                    <div id="head3">
+                                    <h1 id="first">Meet the <span id="second">team</span></h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint facilis veniam eaque, debitis fugiat<br>deleniti beatae fuga, temporibus incidunt laudantium eligendi aliquid, qui maxime est inventore recusandae consequatur<br>necessitatibus sequi? </p>
+                                </div>
+                            </div>
+                           </section>
+                                <section id="sec3">
+                                    <div class="wrapper">
+                                        <div id="meet" class="img">
+                                            <img class="image" src="images/images/boy.png" alt="boy">
+                                             <img class="image" src="images/images/girl.png" alt="girl">
+                                        </div>  
+                                    </div>
+                                </section>
+                                    <section id="sec4">
+                                        <div class="warpper" id="div4">
+                                            <div id="leftdiv">
+                                                <h3 id="head4"><span id="third">WELCOME TO</span> <br>construction <br> company</h3>
+                                                <hr id="line">
+                                                <p id="p4">We are authority for completing constructon <br> projects in environmentally</p>
+                                               
+                                        </div>
+                                            <div id="rightdiv">
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum maxime culpa,  <br> natus pariatur veniam consectetur possimus incidunt maiores <br> quisquam blanditiis, atque accusantium? Nemo magni provident officia facere libero quae rem.</p>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum maxime culpa, <br> natus pariatur veniam consectetur possimus incidunt maiores <br> quisquam blanditiis, atque accusantium? Nemo magni provident officia facere libero quae rem.</p>
+                                                <a href="#" id="a1">Learn More</a>
+                                            </div>
+                                        </div>
+                                    </section>
+                                            <section id="sec5">
+                                                <div class="wrapper" id="div5">
+                                                    <div id="firstdiv">
+                                                        <h1 id="head5">HOW WE WORK</h1>
+                                                        <p id="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum maxime culpa,  <br> natus pariatur veniam consectetur possimus incidunt maiores <br> quisquam blanditiis, atque accusantium? Nemo magni provident officia facere libero quae rem.</p>
+                                                        
+                                                </div>
+                                                    <div id="seconddiv">
+                                                        <img src="images/images/building1.png" alt="building1" class="building">
+                                                        <img src="images/images/building2.png" alt="building1"class="building">
+                                                        <img src="images/images/site-girl.png" alt="building1" class="building">
+                                                    </div>
+                                                     <div id="maindiv">
+                                                    <div id="thirddiv">
+                                                    <img src="images/images/building3.png" alt="building1"class="building">  
+                                                    <img src="images/images/building4.png" alt="building1"class="building">
+                                            </div>
+                                                  <div id="forthdiv">
+                                               <img src="images/images/engineer.png" alt="building1" id="building2">
+                                            </div>
+                                        </div>
+                                    </div>
+                                            </section>
+                                                <section id="sec6">
+                                                    <div class="wrapper" id="div6">
+                                                        
+                                                        <div id="photodiv">
+                                                            <img src="images/images/medium-shot-engineer-architect-looking-camera.jpg" alt="engineer" id="engineer">
+                                                                </div>
+                                                                    <div id="secdiv6">
+                                                                        <div id="boxnew">
+                                                                            <h1 id="head6">BUILD WITH US</h1>
+                                                                            <p id="para6">Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Sed explicabo</p>
+                                                                            <a href="#" id="a1">CONTACT US</a>
+                                                                         </div>
+                                                        
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                        </section>
+                                                            <section id="sec7">
+                                                                <div class="wrapper">
+                                                                    <div id="para7">
+                                                                        <p id="paranew">It is a estabilished fact that a reader will be distracted by the <br> readble content of a page when looking at its layout. The point of using <br> Lorem Ipsum is that it has a more-or-less normal distrabution of letters. <br> as opposed to We are the authority for completing construction projects <br> in environmentally. </p>
+                                                                        <a href="#" id="a7">LEARN MORE</a>
+                                                                </div>
+                                                            </div>
+                                                    </section>
+                                                        <section id="sec8">
+                                                            <div class="wrapper" id="div8">
+                                                                <div id="full8">
+                                                                    <div id="left8">
+                                                                        <h1 id="head8">Expert,Efficient <br> Collaborative. <br> Build with Experience </h1>
+                                                                        <img src="images/images/business-people-meeting.jpg" alt="business  people" id="bpeople">
+                                                                    </div>
+                                                                        <div id="right8">
+                                                                            <img src="images/images/house.jpg" alt="house" id="house">
+                                                                    </div>
+                                                                        <div id="boxnew2">
+                                                                            <h1 id="head7">OUR VISION</h1>
+                                                                            <p id="para6">Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Sed explicabo</p>
+                                                                            <a href="#" id="a8">LEARN MORE</a>
+                                                                         </div>
+                                                                    </div>
+                                                                </div>
+                                                            </section>
+                                                                <section id="sec9">
+                                                                    <div class="wrapper" id="div9">
+                                                                        <div id="h9">
+                                                                        <h1 id="head9">Get in Tourch! </h1>
+                                                                        <p id="para9">We are looking forward to start a project with you.</p>
+                                                                    </div>
+                                                                        <div id="secdiv9">
+                                                                                <div id="left9div">
+                                                                                    <img src="images/images/icons/24-244464_store-location-icon-png-download-orange-address-icon.png" alt="location" class="location">
+                                                                                    <p>121 Rock street,21 Avenue,New York, <br> NY 92103-079</p>
+                                                                                    <img src="images/images/icons/367-3677589_call-icon-orange-png-transparent-cartoons-call-logo.png" alt="call" class="location">
+                                                                                    <p>1(243) 567-7689/1(243) 678-890</p>
+                                                                                    <img src="images/images/icons/clock.png" alt="clock" class="location">
+                                                                                    <p>Mon-Fri....10a.m. - 1p.m.</p>
+                                                                                    <p>Satu,Sun...Closed</p>
+                                                                                </div>
+                                                                            </div>
+                                                                                        <div id="right9div">
+                                                                                            <input class="input1" type="text" placeholder="Enter your Name">
+                                                                                        <input class="input1" type="email" placeholder=" Enter your email address">
+                                                                                        <textarea class="input1" placeholder="Message"></textarea>
+                                                                                        <input class="input1" id="submit" type="submit" value="submit">
+                                                                                       
+                                                                                        </div>
+                                                                                        <img src="images/images/icons/fb.png" alt="fbpage" id="fbpage">
+                                                                                    </div>
+                                                                                </section>
+                                                                                <footer>
+                                                                                    <div class="wrapper">
+                                                                                        <div id="copyright">
+                                                                                            <div class="wrapper">
+                                                                                                <p id="text5">All rights reserved &copy;
+                                                                                                    webclass 2022
+                                                                                                    </p>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                    </footer>
+                                                                                    <script>
+                                                                                        var menuButton = document.getElementById('menu');
+     
+                                                                                        var navigation = document.getElementById('mainmenu');
+                                                                                        menuButton.onclick=function(){
+                                                                                            if(navigation.style.display=="flex"){
+                                                                                                navigation.style.display="none"
+                                                                                            }else{
+                                                                                                 navigation.style.display="flex";
+                                                                                                }
+                                                                                            }
+                                                                                        </script>
+                                                                                        </body>    
+                                                                                    </html>
+
+    
+                                                                                     
+                                                                                       
+
+                                                                                    
+                                                                                    
+
+                                                                                    
+                                                                                
+                                                                                    
+                                                                                    
+                                                                       
+                                                                                    
+                                                                            
+                                                        
+                                                   
+
+                    
